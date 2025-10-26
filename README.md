@@ -88,6 +88,8 @@ Uma Web App (Aplicação Web) é um tipo de aplicação que roda em um navegador
 - Pode ter front-end (React, Angular, Vue) e back-end (Node.js, Java, etc.).
 - Escalável e facilmente implantada em containers e clusters Kubernetes.
 
+🧩 Exemplo de implantação no Kubernetes:
+
 
 
 
