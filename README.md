@@ -11,5 +11,8 @@ O **kubeconfig** é um **arquivo de configuração** usado pelo **kubectl** (CLI
 
 ### 🔍 O que ele faz:
 
+- Define **as credenciais** para acesso (usuário, token, certificados).
+
+
 
 
