@@ -47,6 +47,8 @@ current-context: my-context
 
 O ConfigMap é um objeto do Kubernetes usado para armazenar dados de configuração em pares chave: valor.
 
+### 🔍 Para que serve:
+
 
 
 
