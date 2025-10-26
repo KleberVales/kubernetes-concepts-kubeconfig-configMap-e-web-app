@@ -4,3 +4,6 @@ Este repositório explica três conceitos fundamentais usados em ambientes Kuber
 Esses elementos são essenciais para configurar, gerenciar e implantar aplicações em clusters de forma segura e organizada.
 
 ---
+
+## ⚙️ kubeconfig
+
