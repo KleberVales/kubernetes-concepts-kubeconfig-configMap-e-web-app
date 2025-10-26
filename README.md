@@ -64,6 +64,20 @@ data:
 
 📦 Como usar no Pod:
 
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+spec:
+  containers:
+  - name: app-container
+    image: myapp:latest
+    envFrom:
+    - configMapRef:
+        name: app-config
+```
+
 
 
 
