@@ -17,6 +17,27 @@ O **kubeconfig** é um **arquivo de configuração** usado pelo **kubectl** (CLI
 
 ### 🧩 Estrutura básica:
 
+```yaml
+apiVersion: v1
+kind: Config
+clusters:
+- name: my-cluster
+  cluster:
+    server: https://<api-server-endpoint>
+    certificate-authority-data: <CA_DATA>
+users:
+- name: my-user
+  user:
+    token: <ACCESS_TOKEN>
+contexts:
+- name: my-context
+  context:
+    cluster: my-cluster
+    user: my-user
+current-context: my-context
+
+```
+
 
 
 
