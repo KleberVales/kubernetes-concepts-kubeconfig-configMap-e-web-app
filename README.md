@@ -90,6 +90,28 @@ Uma Web App (Aplicação Web) é um tipo de aplicação que roda em um navegador
 
 🧩 Exemplo de implantação no Kubernetes:
 
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web-app
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - name: web-app
+        image: myuser/web-app:latest
+        ports:
+        - containerPort: 80
+```
+
 
 
 
