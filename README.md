@@ -49,6 +49,8 @@ O ConfigMap é um objeto do Kubernetes usado para armazenar dados de configuraç
 
 ### 🔍 Para que serve:
 
+Ele permite separar as configurações da imagem da aplicação, evitando precisar reconstruir o contêiner sempre que algo mudar.
+
 
 
 
