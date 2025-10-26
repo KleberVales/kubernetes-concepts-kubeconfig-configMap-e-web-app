@@ -62,6 +62,8 @@ data:
   APP_MODE: "production"
 ```
 
+📦 Como usar no Pod:
+
 
 
 
