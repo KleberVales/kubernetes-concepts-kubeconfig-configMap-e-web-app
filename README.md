@@ -40,6 +40,9 @@ current-context: my-context
 
 ## 🛠️ Local padrão:
 
+- Linux/Mac: ~/.kube/config
+- Windows: %USERPROFILE%\.kube\config
+
 
 
 
