@@ -13,6 +13,7 @@ O **kubeconfig** é um **arquivo de configuração** usado pelo **kubectl** (CLI
 
 - Define **as credenciais** para acesso (usuário, token, certificados).
 - Armazena **endereços de clusters** e **contextos** (qual cluster e namespace usar).
+- Permite **trocar entre múltiplos clusters** sem precisar reconfigurar o acesso.
 
 
 
