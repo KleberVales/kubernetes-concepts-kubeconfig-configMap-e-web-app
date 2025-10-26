@@ -43,6 +43,8 @@ current-context: my-context
 - Linux/Mac: ~/.kube/config
 - Windows: %USERPROFILE%\.kube\config
 
+## 🧱 ConfigMap
+
 
 
 
