@@ -9,4 +9,7 @@ Esses elementos são essenciais para configurar, gerenciar e implantar aplicaç�
 
 O **kubeconfig** é um **arquivo de configuração** usado pelo **kubectl** (CLI do Kubernetes) para se conectar e autenticar em um **cluster Kubernetes**.
 
+### 🔍 O que ele faz:
+
+
 
