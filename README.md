@@ -82,6 +82,8 @@ spec:
 
 Uma Web App (Aplicação Web) é um tipo de aplicação que roda em um navegador e se comunica com servidores por meio de HTTP/HTTPS.
 
+🔍 Características:
+
 
 
 
