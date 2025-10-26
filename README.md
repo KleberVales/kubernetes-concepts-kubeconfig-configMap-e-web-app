@@ -51,6 +51,17 @@ O ConfigMap é um objeto do Kubernetes usado para armazenar dados de configuraç
 
 Ele permite separar as configurações da imagem da aplicação, evitando precisar reconstruir o contêiner sempre que algo mudar.
 
+🧩 Exemplo:
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DATABASE_URL: "jdbc:mysql://mysql-service:3306/appdb"
+  APP_MODE: "production"
+```
+
 
 
 
